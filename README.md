@@ -3,7 +3,7 @@ A tool to check the health of masternode wallets, which currently only supports 
 
 To operate, the script relies on the following pieces of information, which can be specified on the command line as well as configuation variables in the script itself:
 
-- Name, handle or symbol of the currency you're checking a masternode of. This is determined by the explorer in question (explorerz.top at the time of this writing, which means you'll use the subdomain used by that service for that particular currency). The command line parameter for this is "--currency-handle". The default value for this is "vivo".
+- Name, handle or symbol of the currency you're checking a masternode of. This is determined by the explorer in question (explorerz.top at the time of this writing, which means you'll use the subdomain used by that service for that particular currency). The command line parameter for this is "--currency-handle". The default value for this is "wgr".
 
 - The location of the "cli" and the "d" (daemon) binary of the masternode wallet. This is specified by the "--currency-bin-cli" (default value: "wagerr-cli") and "--currency-bin-daemon"  (default value: "wagerrd") command line parameter specifically.
 
